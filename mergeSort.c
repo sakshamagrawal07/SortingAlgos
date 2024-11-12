@@ -37,3 +37,10 @@ void mergeSort(int arr[], int left, int right) {
         merge(arr, left, mid, right);
     }
 }
+
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
