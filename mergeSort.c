@@ -49,6 +49,8 @@ void mergeSort(int arr[], int left, int right)
     }
 }
 
+void print(){}
+
 void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
