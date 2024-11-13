@@ -16,6 +16,8 @@ void insertionSort(int arr[], int n)
     }
 }
 
+void print(){}
+
 void printArray(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
